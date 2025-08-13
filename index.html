@@ -3,69 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tax Services</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Laundry Services</title>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Laundry Wallah/Laundry Mart</h1>
-    </header>
-    <br>
-    <section id="about">
-    <p>Welcome to Laundry Wallah/Laundry Mart,your one-stop solution for all your laundry needs.Our dedicated team ensures top-notch service,providing a hassle-free and efficient laundry experience.With a focus on quality and customer satisfaction,we take care of your garments as if they were our own.</p>
-    </section>
-    <br>
-    <section id="image">
+   <header class="container">
+        <div class="left">
+            <img src="data:image/jpeg;base64,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" alt="Logo"></src>
+        </div>
+    <div class="we">
+        <div class="box">Homes</div>
+        <div class="box">Services</div>
+        <div class="box">About Us</div>
+        <div class="box">Contact Us</div>
+    </div>
+    <div class="right">Username</div>
+   </header>
+ <div class="hero">
+    <div class="left1">
+        <h1 id="qq">Revitalize Your <br> Clothes With Experts</h1>
+        <h1 id="rr">Laundry Services!</h1>
+        <p>From premium dry cleaning to swift wash and fold, we deliver care and convinience. Schedule a pickup and rediscover the freshness of your clothes today!</p>
+        <h3>Book a service today!</h3>
+    </div>
+    <div class="right1">
          <img src="https://png.pngtree.com/png-vector/20240322/ourmid/pngtree-home-service-house-cleaning-and-laundry-wash-png-image_12190003.png" alt="laundryimage">
-    </section>
-    <br>
-    <section id="service">
-      <h3><strong>Our Services.</strong></h3>
-      <ul>
-        <li>Washing and Drying</li>
-        <li>Ironing and Folding</li>
-        <li>Dry Cleaning</li>
-        <li>Stain Removal</li>
-        <li>Express Services</li>
-        <li>Special Garment Care</li>
-        <li>And more...</li>
-      </ul>
-    </section>
-    <br>
-    <section id="pricelist">
-        <h3><strong>Price List</strong></h3>
-        <table border="">
-            <thead>
-                <tr>
-                    <td><b>Service</b></td>
-                    <td><b>Price</b></td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Washing and Drying</td>
-                    <td>$10.00</td>
-                </tr>
-                <tr>
-                    <td>Ironing and Folding</td>
-                    <td>$5.00</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-    <br>
-    <section id="booknow">
-        <h3>Book Now</h3>
-        <form action="" method="post">
-                Name: <input type="text" name="name" required>
-                Email: <input type="email" name="email" required>
-                Phone: <input type="tel" name="phone" required>
-                <input type="submit" value="Submit">
-        </form>
-    </section>
-<footer>
-         <p>Contact us at: info@laundrymart.com</p>
-</footer>
+    </div>
+ </div>
 </body>
-
 </html>
-
